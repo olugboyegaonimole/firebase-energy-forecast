@@ -2,6 +2,7 @@
   "name": "energy-forecast-functions",
   "scripts": {
     "build": "tsc",
+    "tsc": "tsc",
     "deploy": "npm run build && firebase deploy --only functions"
   },
   "main": "lib/index.js",
